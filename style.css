@@ -284,3 +284,37 @@ ul {
     }
 }
 }
+
+.best {
+    padding: 100px;
+}
+.best__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    img {
+        width: 45%;
+    }
+}
+.best__arrow{
+min-width: 85px;
+height: 86px;
+border-radius: 50%;
+background-color: green;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+transition: 0.4s;
+opacity: 0.5;
+
+&:hover {
+    opacity: 1;
+}
+}
+
+
+.best__icon
